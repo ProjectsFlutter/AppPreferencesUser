@@ -1,3 +1,4 @@
+import 'package:app_preferences_user/src/widgets/menu-widget.dart';
 import 'package:flutter/material.dart';
 
 class SettingPage extends StatelessWidget {
@@ -9,6 +10,7 @@ class SettingPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Configuración')
       ),
+      drawer: MenuWidget(),
       body: Center(
         child: Text('Ajustes Page'),
       )
